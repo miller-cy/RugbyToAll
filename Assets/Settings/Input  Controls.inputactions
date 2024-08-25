@@ -1,0 +1,96 @@
+{
+    "name": "Input  Controls",
+    "maps": [
+        {
+            "name": "Frog",
+            "id": "130cea5b-c89d-4ba9-b8e4-377425dc2df4",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "cdacd1cb-afca-4471-ab91-c1b60a42d12e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Tap",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LongJump",
+                    "type": "Button",
+                    "id": "984d714a-17be-42c2-86f4-bf2211afa98b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Hold,Hold",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Touchpositon",
+                    "type": "Value",
+                    "id": "245515d9-f5d9-4b4d-a89e-eecee574b84f",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b2e916a2-1d1a-4152-8546-7be3c49f6522",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "509e769a-61b6-46d5-b04d-5aaa535b03da",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d17459ca-0df3-4609-afc1-dff37410aac5",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LongJump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "598b28f8-96cf-4629-91be-650279474761",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LongJump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3fc73b4b-d41f-4bf0-b8ad-fabf95e95093",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Touchpositon",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
